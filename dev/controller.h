@@ -27,6 +27,12 @@ void getAllRecords(Record records[]);
 
 void searchByName(Record *R, string name, int *position);
 
+void searchByPhone(Record *R, string phone, int *position);
+
 void insertRecord(Record R);
 
 void removeRecordByName(string name);
+
+void removeRecordByPhone(string phone);
+
+void removeAll();
